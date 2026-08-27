@@ -76,13 +76,13 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Right Drawer */}
       <aside
-        className={`fixed top-0 right-0 h-full w-[280px] border-l border-[#121115] z-50 p-6 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden bg-[#050505] ${
+        className={`fixed top-0 right-0 h-full w-[280px] border-l border-[#121115] z-50 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden bg-[#050505] ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div>
           {/* Drawer Header */}
-          <div className="flex items-center justify-between border-b border-[#121115] pb-4 bg-[#050505]">
+          <div className="flex items-center justify-between border-b border-[#121115] pt-6 px-6 pb-4 bg-[#050505]">
             <Logo />
             <button
               onClick={toggleMenu}
@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Links */}
-          <nav className="flex flex-col space-y-6 pt-8 text-[15px] font-[500] text-[#f0f0f0]">
+          <nav className="flex flex-col space-y-6 pt-8 text-[15px] font-[500] p-6 text-[#f0f0f0]">
             {navItems.map((item) => {
               const isActive = location.pathname === item.href;
               return (
