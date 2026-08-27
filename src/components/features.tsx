@@ -33,7 +33,7 @@ const features: FeatureItem[] = [
 
 const Features: React.FC = () => {
   return (
-    <section className="w-full bg-[#121115] border border-[#26252B] text-white px-4 md:px-10 py-20">
+    <section className="w-full bg-[#121115] border border-[#26252B] text-white mx-4 md:mx-10 my-14">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
         {features.map((feature) => (
           <div key={feature.number} className="flex flex-col space-y-4">
