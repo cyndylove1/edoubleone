@@ -4,7 +4,7 @@ import { RiInstagramLine } from "react-icons/ri";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 export default function InfoCard() {
   return (
-    <div className="lg:col-span-5 flex flex-col gap-4">
+    <div className="lg:col-span-5 flex pt-10 lg:pt-0 flex-col gap-4">
       {/* Card 1: Global Headquarters */}
       <div className="bg-[#121216] rounded-3xl p-6 border border-neutral-800/50">
         <span className="text-[12px] font-[400] leading-[16px] tracking-[1.2px] text-[#ff5500] uppercase block mb-2">
@@ -42,20 +42,38 @@ export default function InfoCard() {
           SOCIAL ECOSYSTEM
         </span>
         <div className="flex items-center gap-4 text-neutral-400">
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="#"
+            className="hover:text-white transition-colors"
+            aria-label="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter size={20} />
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.instagram.com/edoubleone_nextaflow?igsh=MXRlZGoyMHp1ZW0yMQ%3D%3D&utm_source=qr"
+            aria-label="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
             <RiInstagramLine size={20} />
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.linkedin.com/company/e-double-one-inc/"
+            className="hover:text-white transition-colors"
+            aria-label="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <BiLogoLinkedinSquare size={20} />
           </a>
         </div>
 
         {/* Card 4: Response Time Mesh Banner */}
       </div>
-      <div className="bg-black h-full w-full px-4 md:px-0">
+      <div className="h-full w-full px-4 md:px-0">
         <img src={card} alt="" className="h-full w-full" />
       </div>
     </div>

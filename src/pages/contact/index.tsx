@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full bg-transparent border-b border-gray-700 pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
+                    className="w-full bg-transparent border-b border-[#26252B] pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
                   />
                 </div>
                 <div>
@@ -73,7 +73,7 @@ export const Contact: React.FC = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full bg-transparent border-b border-gray-700 pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
+                    className="w-full bg-transparent border-b border-[#26252B] pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
                   />
                 </div>
               </div>
@@ -89,7 +89,7 @@ export const Contact: React.FC = () => {
                     name="interest"
                     value={formData.interest}
                     onChange={handleChange}
-                    className="w-full bg-transparent border-b border-gray-700 pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
+                    className="w-full bg-transparent border-b border-[#26252B] pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
                   />
                 </div>
                 <div>
@@ -101,7 +101,7 @@ export const Contact: React.FC = () => {
                     name="timeline"
                     value={formData.timeline}
                     onChange={handleChange}
-                    className="w-full bg-transparent border-b border-gray-700 pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
+                    className="w-full bg-transparent border-b border-[#26252B] pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
                   />
                 </div>
               </div>
@@ -117,30 +117,30 @@ export const Contact: React.FC = () => {
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Tell us about your ambition..."
-                  className="w-full bg-transparent border-b border-gray-700 pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
+                  className="w-full bg-transparent border-b border-[#26252B] pb-2 text-[#F0F0F0] text-[15px] placeholder-neutral-600 focus:outline-none focus:border-(--primary) transition-colors resize-none"
                 />
               </div>
 
               {/* Submit Button */}
               <div className="pt-4">
-                  <button className="bg-(--primary) w-full text-[#F0F0F0] flex items-center justify-center gap-2 px-6 py-3 rounded-full">
-                    <span>Send Message</span>
-                    <span className="flex items-center justify-center">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M13.6202 0.15323C13.8964 0.344636 14.0413 0.675495 13.9893 1.00635L12.2393 12.3814C12.1983 12.6466 12.037 12.879 11.8018 13.0103C11.5667 13.1415 11.2851 13.1579 11.0362 13.054L7.76591 11.695L5.89286 13.7212C5.6495 13.9864 5.26669 14.0739 4.93036 13.9427C4.59403 13.8114 4.37528 13.486 4.37528 13.1251V10.8392C4.37528 10.7298 4.4163 10.6259 4.49013 10.5466L9.07294 5.54542C9.23153 5.37315 9.22607 5.10792 9.062 4.94385C8.89794 4.77979 8.63271 4.76885 8.46044 4.92471L2.89872 9.86573L0.484269 8.65714C0.194425 8.51221 0.00848792 8.22237 0.0002848 7.89971C-0.00791832 7.57706 0.161613 7.27628 0.440519 7.11495L12.6905 0.114948C12.9831 -0.0518486 13.344 -0.0354423 13.6202 0.15323Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                  </button>
-                </div>
+                <button className="bg-(--primary) w-full text-[#F0F0F0] flex items-center justify-center gap-2 px-6 py-3 rounded-full">
+                  <span>Send Message</span>
+                  <span className="flex items-center justify-center">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.6202 0.15323C13.8964 0.344636 14.0413 0.675495 13.9893 1.00635L12.2393 12.3814C12.1983 12.6466 12.037 12.879 11.8018 13.0103C11.5667 13.1415 11.2851 13.1579 11.0362 13.054L7.76591 11.695L5.89286 13.7212C5.6495 13.9864 5.26669 14.0739 4.93036 13.9427C4.59403 13.8114 4.37528 13.486 4.37528 13.1251V10.8392C4.37528 10.7298 4.4163 10.6259 4.49013 10.5466L9.07294 5.54542C9.23153 5.37315 9.22607 5.10792 9.062 4.94385C8.89794 4.77979 8.63271 4.76885 8.46044 4.92471L2.89872 9.86573L0.484269 8.65714C0.194425 8.51221 0.00848792 8.22237 0.0002848 7.89971C-0.00791832 7.57706 0.161613 7.27628 0.440519 7.11495L12.6905 0.114948C12.9831 -0.0518486 13.344 -0.0354423 13.6202 0.15323Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
             </form>
           </div>
           {/* Right Info Cards */}
