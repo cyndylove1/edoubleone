@@ -117,7 +117,7 @@ export const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Action Button */}
-        <div className="pt-6 border-t border-[#121115]">
+        <div className="p-6 border-t border-[#121115]">
           <Link to="/contact" onClick={toggleMenu}>
             <Button
               className="w-full bg-(--primary) hover:bg-(--primary)/60 text-white justify-center"
