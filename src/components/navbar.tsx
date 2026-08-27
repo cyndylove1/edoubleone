@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <header className="w-full border-b border-gray-700 px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative bg-[#050505]">
+    <header className="w-full border-b border-[#26252B] px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative bg-[#050505]">
       <Logo />
 
       {/* Desktop Navigation Links */}
