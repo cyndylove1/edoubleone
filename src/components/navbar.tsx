@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <header className="w-full border-b border-gray-700 px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative">
+    <header className="w-full border-b border-gray-700 px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative bg-[#050505]">
       <Logo />
 
       {/* Desktop Navigation Links */}
@@ -76,7 +76,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Right Drawer */}
       <aside
-        className={`fixed top-0 right-0 h-full w-[280px] border-l border-[#121115] z-50 p-6 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden ${
+        className={`fixed top-0 right-0 h-full w-[280px] border-l border-[#121115] z-50 p-6 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden bg-[#050505] ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
