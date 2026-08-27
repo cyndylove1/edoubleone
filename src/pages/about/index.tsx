@@ -7,7 +7,7 @@ import Partners from "../../components/partners";
 const About = () => {
   return (
     <>
-      <section className="w-full text-white px-4 md:px-10 pt-16 md:py-24">
+      <section className="w-full text-white px-4 md:px-10 py-16 md:py-24">
         <div className="max-w-7xl mx-auto">
           {/* Header Grid */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end mb-16 md:mb-20">
