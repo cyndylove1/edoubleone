@@ -168,20 +168,6 @@ const ServiceCard = ({ card, className = "" }: ServiceCardProps) => {
         "
       />
 
-      {/* Dark overlay */}
-      <div
-        className="
-          absolute
-          inset-0"
-      />
-
-      {/* Gradient overlay */}
-      <div
-        className="
-          absolute
-          inset-0"
-      />
-
       {/* Orange atmospheric glow */}
       <div
         className="
@@ -238,7 +224,7 @@ const ServiceCard = ({ card, className = "" }: ServiceCardProps) => {
             w-fit
             items-center
             gap-2
-            pt-6
+            py-6
             text-[12px]
             font-[500]
             text-[#E6E5E2]
@@ -309,7 +295,6 @@ const GrowthCard = () => {
         {/* Left content */}
         <div className="flex flex-1 flex-col">
           <Tags tags={card.tags} />
-
           <div className="mt-7">
             <h3
               className="text-[25px]
@@ -320,11 +305,10 @@ const GrowthCard = () => {
             >
               {card.title}
             </h3>
-
             <p
               className="
-                mt-3
-                max-w-[360px]
+              mt-3
+              max-w-[360px]
               text-[13px]
               leading-[1.7]
               text-[#8E8C95]
@@ -333,46 +317,10 @@ const GrowthCard = () => {
               {card.description}
             </p>
           </div>
-
           <FeatureList features={card.features} />
-        </div>
-
-        {/* Visualization */}
-        <div
-          className="
-            relative
-            flex
-            h-[190px]
-            w-full
-            shrink-0
-            items-center
-            justify-center
-            rounded-xl
-            border
-            border-white/[0.08]
-            bg-[#121216]/90
-            backdrop-blur-sm
-            md:w-[230px]
-            lg:h-[200px]
-            lg:w-[240px]
-          "
-        >
-          {/* Bars */}
-          <Analytics/>
-
-          <span
-            className="
-              absolute
-              bottom-7
-              text-[8px]
-              font-medium
-              uppercase
-              tracking-[0.18em]
-              text-white/25
-            "
-          >
-            Growth Visualization
-          </span>
+          <div className="py-6">
+            <Analytics />
+          </div>
         </div>
       </div>
     </article>
@@ -459,7 +407,7 @@ const EducationCard = () => {
             w-fit
             items-center
             gap-2
-            pt-6
+            py-6
             text-[12px]
             font-[500]
             text-[#E6E5E2]
@@ -479,7 +427,7 @@ const EducationCard = () => {
 
 const ServicesGrid: React.FC = () => {
   return (
-    <section className="w-full bg-[#070709] px-4 pt-16 pb-32 text-white md:px-10">
+    <section className="w-full px-4 pt-16 pb-32 text-white md:px-10">
       <div className="mx-auto w-full max-w-7xl">
         {/* Top row */}
         <div className="grid grid-cols-1 space-y-6 gap-5 lg:grid-cols-3 md:grid-cols-2">
