@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <header className="w-full border-b border-gray-700 px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative">
+    <header className="w-full border-b border-gray-700 px-6 md:px-10 md:py-4 py-6 flex items-center justify-between text-xs tracking-[0.35px] relative bg-[#080a0b]">
       <Logo />
 
       {/* Desktop Navigation Links */}
@@ -82,7 +82,7 @@ export const Navbar: React.FC = () => {
       >
         <div>
           {/* Drawer Header */}
-          <div className="flex items-center justify-between border-b border-[#121115] pb-4">
+          <div className="flex items-center justify-between border-b border-[#121115] pb-4 bg-[#080a0b]">
             <Logo />
             <button
               onClick={toggleMenu}
