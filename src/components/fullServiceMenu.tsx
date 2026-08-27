@@ -28,7 +28,7 @@ const serviceCategories: ServiceCategory[] = [
 
 export const FullServiceMenu: React.FC = () => {
   return (
-    <section className="text-white md:py-24 px-4 md:px-10 border-t border-[#26252B]">
+    <section className="text-white py-24 px-4 md:px-10 border-t border-[#26252B]">
       {/* Container */}
       <div className="max-w-7xl">
         {/* Main Heading */}

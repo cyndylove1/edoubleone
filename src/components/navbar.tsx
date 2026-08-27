@@ -76,7 +76,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Right Drawer */}
       <aside
-        className={`fixed top-0 right-0 h-full w-[280px] bg-black border-l border-[#121115] z-50 p-6 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden ${
+        className={`fixed top-0 right-0 h-full w-[280px] border-l border-[#121115] z-50 p-6 flex flex-col justify-between transform transition-transform duration-300 ease-in-out lg:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
