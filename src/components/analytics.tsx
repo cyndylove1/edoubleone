@@ -2,8 +2,7 @@ export default function Analytics() {
     return (
       <>
         <svg
-          width="309"
-          height="256"
+          className="h-full w-[309px]"
           viewBox="0 0 309 256"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
