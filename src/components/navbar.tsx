@@ -82,7 +82,7 @@ export const Navbar: React.FC = () => {
       >
         <div>
           {/* Drawer Header */}
-          <div className="flex items-center justify-between border-b border-[#121115] pb-4">
+          <div className="flex items-center justify-between border-b border-[#121115] pb-4 bg-[#050505]">
             <Logo />
             <button
               onClick={toggleMenu}
