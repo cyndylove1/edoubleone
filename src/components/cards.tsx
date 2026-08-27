@@ -163,7 +163,7 @@ export const Cards: React.FC = () => {
           {cardData.map((card) => (
             <div
               key={card.id}
-              className="w-full md:w-[350px] h-[400px] md:h-[450px] bg-[#0D0D0F] border border-[#1F1F21] rounded-[20px] p-8 flex flex-col justify-between shadow-xl shrink-0 transition-transform duration-300 hover:border-[#333338]"
+              className="w-[350px] h-[400px] md:h-[450px] bg-[#0D0D0F] border border-[#1F1F21] rounded-[20px] p-8 flex flex-col justify-between shadow-xl shrink-0 transition-transform duration-300 hover:border-[#333338]"
             >
               {/* Top Content: Icon, Title, Subtitle, Description */}
               <div className="space-y-4">
