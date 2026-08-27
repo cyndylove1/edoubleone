@@ -141,7 +141,8 @@ const ServiceCard = ({ card, className = "" }: ServiceCardProps) => {
       className={`
         group
         relative
-        h-[450px]
+        h-full
+        md:h-[450px]
         overflow-hidden
         rounded-[22px]
         border
@@ -264,7 +265,8 @@ const GrowthCard = () => {
       className="
         group
         relative
-        h-[450px]
+        md:h-[450px]
+        h-full
         overflow-hidden
         rounded-[22px]
         border
@@ -385,7 +387,8 @@ const EducationCard = () => {
       className="
         group
         relative
-        h-[450px]
+        h-full
+        md:h-[450px]
         overflow-hidden
         rounded-[22px]
         border
@@ -477,7 +480,7 @@ const EducationCard = () => {
 const ServicesGrid: React.FC = () => {
   return (
     <section className="w-full bg-[#070709] px-4 pt-16 pb-32 text-white md:px-10">
-      <div className="mx-auto w-full max-w-6xl">
+      <div className="mx-auto w-full max-w-7xl">
         {/* Top row */}
         <div className="grid grid-cols-1 space-y-6 gap-5 lg:grid-cols-3 md:grid-cols-2">
           {topCards.map((card) => (
