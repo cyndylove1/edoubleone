@@ -162,30 +162,34 @@ export const Footer: React.FC = () => {
                 </button>
               </div>
             </form>
-            <p className="text-[10px] tracking-[1px] font-[400] text-[#585B62] uppercase leading-[16px]">
-              JOIN 5,000+ TECHNOLOGY LEADERS RECEIVING OUR WEEKLY BLUEPRINT.
+            <p className="text-[10px] tracking-[1px] font-[400] text-[#A1A1A6] uppercase leading-[16px]">
+              <span className="font-[500]">Address:</span> 7404 Executive Place Lanham, MD 20706,
+              USA.{" "}
             </p>
           </div>
         </div>
 
         {/* Bottom Bar Divider */}
         <div className="border-t border-[#1C1C1E] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] leading-[15px] tracking-[2px] text-[#515154] uppercase">
-          <div>© 2026 EDOUBLEONE TECHNICAL ARCHITECTURE FIRM.</div>
+          <div>© 2026 Edoubleone, Inc. | All Rights Reserved</div>
           <div className="flex items-center gap-6">
             <a
-              href="#privacy"
+              href="/privacy-policy"
               className="hover:text-[#8E9299] transition-colors"
             >
-              PRIVACY
-            </a>
-            <a href="#terms" className="hover:text-[#8E9299] transition-colors">
-              TERMS
+              PRIVACY POLICY
             </a>
             <a
-              href="#cookies"
+              href="/terms-of-service"
               className="hover:text-[#8E9299] transition-colors"
             >
-              COOKIES
+              TERMS OF SERVICE
+            </a>
+            <a
+              href="/security-policy"
+              className="hover:text-[#8E9299] transition-colors"
+            >
+              SECURITY POLICY
             </a>
           </div>
         </div>

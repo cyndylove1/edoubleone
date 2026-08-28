@@ -13,7 +13,7 @@ const items: NavigationItem[] = [
 
 export const MethodSection: React.FC = () => {
   return (
-    <section className="min-h-screen bg-[#141417] text-[#565658] md:px-10 py-16 px-4 md:py-24 selection:bg-(--primary) selection:text-white">
+    <section className="bg-[#141417] text-[#565658] md:px-10 py-16 px-4 md:py-24 selection:bg-(--primary) selection:text-white">
       <div className="max-w-5xl mx-auto">
         {/* Section Tagline */}
         <p className="text-[12px] font-[400] leading-[18px] tracking-[3.6px] text-(--primary) uppercase mb-12">

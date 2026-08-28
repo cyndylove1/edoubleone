@@ -6,7 +6,7 @@ import FullServiceMenu from "../../components/fullServiceMenu";
 const Services: React.FC = () => {
   return (
     <>
-      <section className="w-full bg-[#08080a] text-white px-4 md:px-10 py-20 md:py-28">
+      <section className="w-full text-white px-4 md:px-10 py-20 md:py-28">
         <div className="max-w-7xl mx-auto">
           {/* Eyebrow / Category Label */}
           <span className="text-(--primary) text-[12px] font-[400] tracking-[2.4px] leading-[16px] uppercase block mb-6">

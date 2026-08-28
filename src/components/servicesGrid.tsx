@@ -4,7 +4,7 @@ import Software from "../assets/photo3.jpeg";
 import Product from "../assets/photo4.jpeg";
 import Growth from "../assets/photo7.png";
 import Education from "../assets/photo6.jpeg";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundForward, IoIosCheckmark } from "react-icons/io";
 import Analytics from "./analytics";
 
 interface CardData {
@@ -120,9 +120,9 @@ const FeatureList = ({ features }: { features: string[] }) => {
       {features.map((feature) => (
         <li
           key={feature}
-          className="flex items-center gap-2 text-[14px] leading-[20px] font-[400] text-[#4C4A52]"
+          className="flex items-center pb-2 gap-2 text-[14px] leading-[20px] font-[400] text-[#F0F0F0]"
         >
-          <span className="text-[14px] text-(--primary)">✓</span>
+          <span className="text-[14px] text-(--primary)"><IoIosCheckmark size={24}/></span>
           <span>{feature}</span>
         </li>
       ))}

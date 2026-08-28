@@ -31,7 +31,7 @@ const About = () => {
           </div>
 
           {/* Hero Image Container */}
-          <div className="w-full h-[400px] relative rounded-lg overflow-hidden border border-white/5">
+          <div className="w-full md:h-[400px] h-full relative rounded-lg overflow-hidden border border-white/5">
             <img
               src={about}
               alt="Office space with city view at night"
